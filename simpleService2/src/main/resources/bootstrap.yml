@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: simpleService2
+  cloud:
+    config:
+      uri: http://localhost:8888/
+      profile: dev
+      label: master
+
+server:
+  port: 9997
+
+management:
+  security:
+    enabled: false
